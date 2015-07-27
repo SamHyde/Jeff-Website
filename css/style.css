@@ -22,7 +22,7 @@ a{
 
 
 /*-- Background Slideshow --*/
-
+/*-- Thanks to: http://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/ --*/
 
 .slideshow:after { 
     position: fixed;
@@ -44,7 +44,7 @@ a{
     background-repeat: none;
     opacity: 0;
     z-index: -10;
-    animation: imageAnimation 3s linear infinite 0s; 
+    animation: imageAnimation 36s linear infinite 0s; 
 }
 .slideshow li:nth-child(1)  { 
     background-image: url(../images/1.JPG) 
